@@ -1,1 +1,3 @@
 iptables -I INPUT -s <ip address> -j DROP
+
+# Change 'DROP' to 'ACCEPT' to make an allow rule
